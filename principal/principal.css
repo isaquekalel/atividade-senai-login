@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(212, 212, 212);
+    width: 250px;
+
+}
+
+nav {
+    float: left;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav,
+a,
+ul>li {
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.img {
+    border-radius: 100%;
+    width: 85px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+.fontes {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: black;
+    text-align: start;
+    padding-top: 40px;
+    margin-left: 22%;
+    font-weight: bold;
+}
+
+li,
+.professor {
+    font-weight: bold;
+}
+
+/* cards */
+
+.cardxd {
+    border-radius: 20px 20px 0px 0px;
+    width: 275px;
+    height: 170px;
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+
+.classes {
+    padding: 20px;
+    margin: 15px;
+
+}
+
+.container {
+    margin-left: 23%;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    margin-left: 12%;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.plu {
+    color: rgb(190, 190, 190);
+    text-align: left;
+}
+
+.plus {
+    text-align: left;
+}
+
+.desc {
+    padding-top: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+.fundo2 {
+    background-color: #ffffff;
+    box-shadow: 5px 10px 18px #808080;
+    width: 275px;
+    height: 280px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cinza {
+    color: black;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.botao-azul {
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 12px;
+    margin-left: 23%;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    cursor: pointer;
+    margin-top: 4%;
+    box-shadow: 5px 10px 18px #808080;
+}
+
+.botao-azul:hover {
+    background-color: rgb(0, 100, 200);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.passar2 {
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 18px #808080;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    
+    display: flex;
+
+}

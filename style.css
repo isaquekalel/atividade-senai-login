@@ -1,0 +1,88 @@
+
+body, html {
+ 
+    margin: 0; 
+}
+
+.caixa-estrutura {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 15%;
+    margin-left: -10%;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilização do logo */
+#logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Estilização dos inputs */
+.inputs input {
+    margin-bottom: 15px;
+}
+
+/* Estilização do botão de login */
+#bt-login {
+    width: 100%;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+header {
+    background-color: #007bff; /* Azul do Bootstrap */
+    padding: 20px; /* Adiciona padding */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona padding */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .caixa-estrutura {
+        width: 90%;
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; }
+
+#logo{
+    
+    width: 250px; ;
+     
+
+}
+body{
+
+background-image: url("./assents/WhatsApp\ Image\ 2024-09-30\ at\ 15.07.34.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
